@@ -1,7 +1,7 @@
 <?php
 
 $usernameDb="202266_alexis";
-$passwordDb="755fkws3v";
+$passwordDb="123";
 
 try
 {
