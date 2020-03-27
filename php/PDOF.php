@@ -1,11 +1,11 @@
 <?php
 
-$usernameDb="root";
-$passwordDb="";
-$dbName="alexisvatin_bdjs";
+$usernameDb="202266_alexis";
+$passwordDb="755fkws3v";
+
 try
 {
-    $bdd = new PDO('mysql:host=localhost;dbname='.$dbName, $usernameDb, $passwordDb);
+    $bdd = new PDO('mysql:host=mysql-alexisvatin.alwaysdata.net;dbname=alexisvatin_bdjs', $usernameDb, $passwordDb);
     $bdd->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 }
 catch(Exception $e)
