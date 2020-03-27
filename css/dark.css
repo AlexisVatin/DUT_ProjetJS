@@ -1,0 +1,23 @@
+:root {
+    --main-negative-color: #f5f5f5;
+    --main-negative-color-rgb: 245,245,245;
+
+
+    --main-color: #212121;
+    --main-color-rgb: 33,33,33;
+
+    --main-alternate-negative-color: #BBB;
+    --main-alternate-negative-color-rgb: 210,210,210;
+
+    --main-alternate-color: #555;
+    --main-alternate-color-rgb: 50,50,50;
+
+    --main-text-negative-color: #333;
+    --main-text-color: #AAA;
+    --main-link-negative-color: #555;
+    --main-link-color: #999;
+    --main-link-hover-color: deeppink;
+
+    --main-header-color: #160f2f;
+    --main-header-color-rgb: 22,15,47;
+}

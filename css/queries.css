@@ -1,0 +1,16 @@
+@media screen and (max-width: 1000px) {
+    header img{
+        display: none;
+    }
+    header button{
+        margin-left: 20%;
+    }
+}
+@media screen and (max-width: 600px) {
+    header button{
+        margin-left: 5% !important;
+    }
+}
+@media screen and (max-width: 400px){
+
+}

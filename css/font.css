@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'GeosansLight';
+    src: url('../font/GeosansLight.eot');
+    src: url('../font/GeosansLight.eot?#iefix') format('embedded-opentype'),
+        url('../font/GeosansLight.woff2') format('woff2'),
+        url('../font/GeosansLight.woff') format('woff'),
+        url('../font/GeosansLight.ttf') format('truetype'),
+        url('../font/GeosansLight.svg#GeosansLight') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+

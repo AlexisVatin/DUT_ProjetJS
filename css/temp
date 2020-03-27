@@ -1,0 +1,24 @@
+.cof-rounded-bottom-5{
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.cof-rounded-bottom-10{
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.cof-rounded-bottom-15{
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.cof-rounded-bottom-20{
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.cof-rounded-bottom-25{
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+.cof-rounded-bottom-30{
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}

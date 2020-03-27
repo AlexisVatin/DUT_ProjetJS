@@ -1,0 +1,113 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+    word-break: break-word;
+}
+body,p,label,h1,h2,h3,h4,ul{
+    padding: 0;
+    margin: 0;
+}
+header, header *{
+    font-family: 'Raleway', sans-serif;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+a{
+    text-decoration: none;
+    font-weight: bold;
+}
+header{
+    position: fixed;
+    z-index: 40;
+}
+header.active{
+    margin-top: -80px;
+}
+header > *{
+    margin-left: 50px;
+}
+.input-div{
+    width: 400px;
+    height: 60px;
+    border-radius: 8px;
+    padding: 12px 32px;
+}
+input{
+    border: none;
+    background: transparent;
+    position: absolute;
+    height: 35px;
+}
+.input-div *:not(input){
+    margin-top: 10px;
+    pointer-events: none;
+}
+.input-div i{
+    margin-left: -20px;
+}
+.input-div input:active ~ label, .input-div input:focus ~ label, .input-div label.active{
+    position: absolute;
+    margin-top: -5px;
+    margin-left: 6px;
+    font-size: 60%;
+}
+button{
+    background: transparent;
+    border: none;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    padding: 12px 32px;
+}
+header button{
+    margin-left: 50%;
+}
+section{
+    width: 60%;
+    margin: auto;
+    padding-top: 80px;
+}
+.article{
+    margin: 25px auto 20px auto;
+}
+.article h1{
+    font-size: 200%;
+    font-weight: bold;
+    font-family: "Poppins";
+}
+.article p{
+    margin-top: 10px;
+    font-size: 130%;
+    letter-spacing: 1px;
+}
+.article label{
+    display: block;
+    margin-top: 10px;
+    font-family: "Raleway";
+}
+.article::after{
+    content: ' ';
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 2px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    margin-top: 10px;
+}
+#connect-area{
+    z-index: 50;
+    padding: 15px;
+    position: fixed;
+    height: 60%;
+    width: 50%;
+    margin: -50% 25%;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+#connect-area.active{
+    margin: 10% 25%;
+}
