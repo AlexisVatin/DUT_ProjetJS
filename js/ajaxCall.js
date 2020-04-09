@@ -17,7 +17,7 @@ $(document).ready(function(){
             });
         }else{
             $('#connect-area').append(
-                formInscription,
+                formConnexion(),
             );
             initializeInput();
         }
