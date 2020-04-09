@@ -36,7 +36,7 @@ let formInscription = function(){
         .attr('method', 'post')
         .append(
             getInput("fas fa-user","Votre pseudonyme", "text", "name"),
-            getInput("fas fa-envelope", "Votre Mail", "text", "mail"),
+            // getInput("fas fa-envelope", "Votre Mail", "text", "mail"),
             getInput("fas fa-key", "Votre mot de passe", "password", "password"),
             $('<button />').attr('type', 'submit').html('Inscription')
         ).submit(function() {
