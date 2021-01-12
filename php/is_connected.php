@@ -7,9 +7,9 @@ $data->message = "Pas de message";
 if(isset($_SESSION['user'])){
     $data->success = true;
     $data->user = $_SESSION['user'];
-    $data->message = "Vous êtes connecter";
+    $data->message = "Vous êtes connecté";
 }else{
-    $data->message = "Vous n'êtes pas connecter";
+    $data->message = "Vous n'êtes pas connecté";
 }
 
 header('Cache-Control: no-cache, must-revalidate');
